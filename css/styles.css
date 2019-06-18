@@ -1,6 +1,7 @@
 * {
     font-size: 35px;
-    text-align: center
+    text-align: center;
+
 }
 
 h1, h2 {
@@ -10,16 +11,34 @@ h1, h2 {
     padding-bottom: 25px;
 }
     
+h1     {
+    font-family: 'Aguafina Script', cursive;
+}
 
 h2     {
     font-size: 1.5rem;
+    color: darkviolet;
 }
 #topic    {
     padding-bottom: 25px;
 }
 
-img {
+#photoSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+#photoSection img {
     width: 33vw;
     height: 33vw;
 }
 
+#captionSection    {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#captionSection p   {
+    width: 33vw;
+}
