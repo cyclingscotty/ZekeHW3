@@ -1,0 +1,25 @@
+* {
+    font-size: 35px;
+    text-align: center
+}
+
+h1, h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;    
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+}
+    
+
+h2     {
+    font-size: 1.5rem;
+}
+#topic    {
+    padding-bottom: 25px;
+}
+
+img {
+    width: 33vw;
+    height: 33vw;
+}
+
