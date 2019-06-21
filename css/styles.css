@@ -60,7 +60,16 @@ h2     {
 .nobutton    {
     background: rgba(203, 28, 82, 0.35);
 }
+.nobutton:hover     {
+    background: rgba(255, 6, 25, 0.7);
+    transition: 1s;
+}
 
 .yesbutton    {
     background: rgba(113, 203, 24, 0.35);
+}
+
+.yesbutton:hover     {
+    background:    rgba(122, 234, 12, 0.88);
+    transition: 1s;
 }
