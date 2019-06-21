@@ -1,24 +1,35 @@
 * {
     font-size: 35px;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 
 }
 
 h1, h2 {
-    margin-top: 5px;
-    margin-bottom: 10px;    
+    margin-top: 0px;
+    margin-bottom: 4px;    
     font-size: 2.5rem;
-    padding-bottom: 25px;
 }
     
 h1     {
     font-family: 'Aguafina Script', cursive;
+    padding-bottom: 5px;
 }
 
 h2     {
     font-size: 1.5rem;
     color: darkviolet;
 }
+
+.boxBox    {
+    display: flex;
+}
+
+.boxBox, ol, li     {
+    align-self: center;
+}
+
 #topic    {
     padding-bottom: 25px;
 }
@@ -29,11 +40,12 @@ h2     {
 }
 
 #photoSection img {
-    width: 33vw;
-    height: 33vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 #captionSection    {
+    height: 75px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -41,4 +53,14 @@ h2     {
 
 #captionSection p   {
     width: 33vw;
+}
+
+
+
+.nobutton    {
+    background: rgba(203, 28, 82, 0.35);
+}
+
+.yesbutton    {
+    background: rgba(113, 203, 24, 0.35);
 }
